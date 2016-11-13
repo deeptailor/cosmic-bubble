@@ -22,7 +22,7 @@ In addition, this project will include:
 This app will consist of a single screen, game controls, and nav links to the Github, my LinkedIn,
 and the About modal.  Game controls will include Start and Stop buttons.
 
-![wireframes](https://github.com/dtailor90/cosmic-crush/docs/wireframes/cosmic-bubble.png)
+![wireframes](https://github.com/dtailor90/cosmic-bubble/blob/master/docs/wireframes/cosmic-bubble.png)
 
 ### Architecture and Technologies
 
