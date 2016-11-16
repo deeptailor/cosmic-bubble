@@ -2,6 +2,7 @@
   <head>
     <title>Cosmic Bubble</title>
     <link rel="stylesheet" href="reset.css" />
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"rel="stylesheet">
     <link rel="stylesheet" href="cosmic-bubble.css" />
     <link href="https://fonts.googleapis.com/css?family=Righteous" rel="stylesheet">
   </head>
@@ -10,6 +11,8 @@
     <canvas id="myCanvas">
     </canvas>
 
+    <div class="level">Level: 1</div>
+
     <div class="score">Score: 0</div>
 
     <div class="overlay">
@@ -17,7 +20,12 @@
       <div class="paused">PAUSED
         <div class="instructions">Press Enter to Play</div>
       </div>
+    </div>
 
+    <div class="you-win">
+      <div class="game-name">COSMIC BUBBLE</div>
+      <div class="congratulations">Congratulations, You Win!</div>
+      <div class="restart"><i class="material-icons">replay</i> Play Again</div>
     </div>
 
     <script type="application/javascript" src="vendor/keymaster.js"></script>
