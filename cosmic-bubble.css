@@ -1,6 +1,21 @@
+html{
+  height: 100vh;
+  width: 100vw;
+}
+
 body{
   display: flex;
-  justify-content: center;
+  height: 100vh;
+  width: 100vw;
+}
+
+.score{
+  font-family: 'Righteous', cursive;
+  position: absolute;
+  right: 20px;
+  top: 20px;
+  font-size: 48px;
+  color: white;
 }
 
 
@@ -8,7 +23,32 @@ body{
   display: none;
   position: absolute;
   background: rgba(0,0,0,0.5);
-  width: 100vw;
-  height: 100vh;
+  width: 100%;
+  height: 100%;
   z-index: 1000;
+}
+
+.game-name{
+  font-family: 'Righteous', cursive;
+  position: absolute;
+  left: 20px;
+  top: 20px;
+  color: white;
+  font-size: 50px;
+}
+
+.paused{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Righteous', cursive;
+  font-size: 110px;
+  color: white;
+}
+
+.instructions{
+  font-size: 36px;
 }

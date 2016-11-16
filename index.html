@@ -1,15 +1,23 @@
 <html>
   <head>
     <title>Cosmic Bubble</title>
+    <link rel="stylesheet" href="reset.css" />
     <link rel="stylesheet" href="cosmic-bubble.css" />
+    <link href="https://fonts.googleapis.com/css?family=Righteous" rel="stylesheet">
   </head>
 
   <body>
-    <canvas id="myCanvas" style="border: 2px solid black;">
+    <canvas id="myCanvas">
     </canvas>
 
+    <div class="score">Score: 0</div>
+
     <div class="overlay">
-      
+      <div class="game-name">COSMIC BUBBLE</div>
+      <div class="paused">PAUSED
+        <div class="instructions">Press Enter to Play</div>
+      </div>
+
     </div>
 
     <script type="application/javascript" src="vendor/keymaster.js"></script>
