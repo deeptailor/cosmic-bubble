@@ -102,7 +102,7 @@ body{
   right: 0;
   margin-left: auto;
   margin-right: auto;
-  bottom: 150px;
+  bottom: 235px;
   width: 250px;
   font-size: 36px;
   border: 2px solid white;
@@ -255,4 +255,14 @@ h1{
 p{
   padding-top: 20px;
   line-height: 20px;
+}
+
+.share-buttons{
+  position: absolute;
+  bottom: 100px;
+  width: 10%;
+  right: 0;
+  left: 0;
+  margin-left: auto;
+  margin-right: auto;
 }
