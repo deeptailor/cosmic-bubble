@@ -122,6 +122,9 @@ body{
   display: inline-block;
   position: absolute;
   background: black;
+  background-image: url('https://res.cloudinary.com/deeptailor/image/upload/b_rgb:000,o_40/v1479149463/cosmic-background_lnuc3j.jpg');
+  background-position: center;
+  background-repeat: space;
   width: 100%;
   height: 100%;
   text-align: center;
@@ -132,17 +135,17 @@ body{
 
 .start-game{
   position: absolute;
-  left: 0;
-  right: 0;
+  right: 220px;
   margin-left: auto;
   margin-right: auto;
   color: white;
-  bottom: 200px;
+  bottom: 380px;
   width: 250px;
   font-size: 36px;
   border: 2px solid white;
   border-radius: 10px;
   padding: 5px;
+  background:rgba( 0,0,0,0.4);
   text-align: center;
 }
 
@@ -182,30 +185,74 @@ body{
 }
 
 .game-title{
-  margin: 90px auto 50px auto;
+  margin: 60px auto 20px auto;
   font-family: 'Righteous', cursive;
   font-size: 64px;
 
 }
 
-.game-explanation{
+.introduction{
   font-family: 'Righteous', cursive;
-  font-size: 16px;
-  padding: 10px;
-  width: 300px;
-  background: white;
+  font-size: 18px;
+  padding: 40px;
+  width: 350px;
+  height: 350px;
+  background: rgba(255,255,255,0.6);
   color: black;
-  border-radius: 20px;
+  border-radius: 100%;
+  margin: 0 auto;
+  position: relative;
+}
+
+.how{
+  font-family: 'Righteous', cursive;
+  font-size: 18px;
+  padding: 40px;
+  width: 225px;
+  height: 225px;
+  background: rgba(114,159,207,0.8);
+  color: black;
+  border-radius: 100%;
   top: 100px;
   margin: 0 auto;
+  position: absolute;
+  left: -220px;
+  top: 90px;
+}
+
+.levels{
+  font-family: 'Righteous', cursive;
+  font-size: 18px;
+  padding: 40px;
+  width: 190px;
+  height: 190px;
+  background: rgba(139,100,174,0.9);
+  color: black;
+  border-radius: 100%;
+  top: 100px;
+  margin: 0 auto;
+  position: absolute;
+  right: 100px;
+  top: 260px;
+}
+
+.levels > h1{
+  width: 150px;
+}
+
+.introduction > h1 {
+  font-size: 32px;
 }
 
 h1{
+  margin: 10px auto 0 auto;
+  width: 220px;
+  padding-bottom: 5px;
   font-size: 24px;
-  padding: 5px;
   border-bottom: 2px solid black;
 }
 
 p{
+  padding-top: 20px;
   line-height: 20px;
 }
