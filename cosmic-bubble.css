@@ -180,3 +180,32 @@ body{
   width: 40px;
   margin: 0 10px 10px 10px
 }
+
+.game-title{
+  margin: 90px auto 50px auto;
+  font-family: 'Righteous', cursive;
+  font-size: 64px;
+
+}
+
+.game-explanation{
+  font-family: 'Righteous', cursive;
+  font-size: 16px;
+  padding: 10px;
+  width: 300px;
+  background: white;
+  color: black;
+  border-radius: 20px;
+  top: 100px;
+  margin: 0 auto;
+}
+
+h1{
+  font-size: 24px;
+  padding: 5px;
+  border-bottom: 2px solid black;
+}
+
+p{
+  line-height: 20px;
+}
