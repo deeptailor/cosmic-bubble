@@ -31,8 +31,6 @@ One of the primary goals for this project was to create a visually appealing bro
 
 ##Future directions
 
-Cosmic bubble has some goals to accomplish in the near future:
-
 ###Mobile responsive design
 
 Currently Cosmic Bubble is not mobile responsive as it only utilizes a keyboard to function. I would like to develop a mobile friendly version so that users never have to stop playing.
