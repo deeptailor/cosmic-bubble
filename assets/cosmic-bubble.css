@@ -164,6 +164,7 @@ body{
 }
 
 .name-o{
+  font-size: 60px;
   border-radius: 100%;
   padding: 0 13px;
   background-color: #ffc125;
