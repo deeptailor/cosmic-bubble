@@ -163,6 +163,17 @@ body{
   color: black;
 }
 
+.name-o{
+  border-radius: 100%;
+  padding: 0 13px;
+  background-color: #ffc125;
+  color: #ffc125;
+  box-shadow: 0 0 50px rgba(255,255,255,0.6);
+  -moz-box-shadow: 0 0 50px rgba(255,255,255,0.6);
+  -webkit-box-shadow: 0 0 50px rgba(255,255,255,0.6);
+  -o-box-shadow: 0 0 50px rgba(255,255,255,0.6);
+}
+
 .contact-container{
   display: flex;
   justify-content: space-between;
