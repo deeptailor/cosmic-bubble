@@ -12,11 +12,11 @@ Cosmic Bubble has a dynamically engineered collision detection system for the fl
 
 I implemented an algorithm to allow the user to play through infinite levels. I was able to accomplish this by storing a variable to keep track of the remaining floating objects, and when there was only 1 object left, I would generate more floating objects with an increased velocity.
 
-At every level the color palette for the bubbles would also change. I stored the colors in an array and used the level indicator to choose 4 colors from the array.
+At every level the color palette for the bubbles changes. I stored the colors in an array and used the level indicator to choose 4 colors appropriate colors.
 
 HTML5 canvas was used to render and animate the floating objects. I implemented a recursive function using requestAnimationFrame to animate the floating objects at 60 Frames Per Second.
 
-Using CSS3 I was able to give the game a user friendly and easy to navigate front end. I was very attentive to detail while developing this game. I used various css properties to make the page visually appealing and engaging.
+Using CSS3 I was able to give the game a user friendly and easy to navigate front end. I was very attentive to detail while developing this game and used various css properties to make the page visually appealing and engaging.
 
 I used jQuery to show and hide the pause screen, the loose screen and the home screen. jQuery's various methods such as toggle, and css allowed me to accomplish this feature.
 
@@ -32,7 +32,6 @@ One of the primary goals for this project was to create a visually appealing bro
 ##Future directions
 
 Cosmic bubble has some goals to accomplish in the near future:
-
 
 ###Mobile responsive design
 
