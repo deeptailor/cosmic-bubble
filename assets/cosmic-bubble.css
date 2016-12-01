@@ -231,6 +231,11 @@ body{
   position: relative;
 }
 
+.introduction > img{
+  margin-top: 10px;
+  height: 100px;
+}
+
 .how{
   font-family: 'Righteous', cursive;
   font-size: 18px;
@@ -242,7 +247,7 @@ body{
   border-radius: 100%;
   margin: 0 auto;
   position: absolute;
-  left: -220px;
+  left: -200px;
   top: 110px;
 }
 
@@ -257,8 +262,8 @@ body{
   border-radius: 100%;
   margin: 0 auto;
   position: absolute;
-  right: 100px;
-  top: 280px;
+  right: 80px;
+  top: 300px;
 }
 
 .levels > h1{
